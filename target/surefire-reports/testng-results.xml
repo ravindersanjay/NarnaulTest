@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-19T20:50:55Z" name="Suite" finished-at="2023-07-19T20:51:05Z" duration-ms="9955">
+    <groups>
+    </groups>
+    <test started-at="2023-07-19T20:50:55Z" name="Test" finished-at="2023-07-19T20:51:05Z" duration-ms="9955">
+      <class name="com.narnaul.testcases.DataUtil">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.narnaul.testcases.DataUtil@3af17be2]" started-at="2023-07-19T20:50:53Z" name="setUp" finished-at="2023-07-19T20:50:55Z" duration-ms="1746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.narnaul.testcases.DataUtil@3af17be2]" started-at="2023-07-19T20:51:06Z" name="tearDown" finished-at="2023-07-19T20:51:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.narnaul.testcases.DataUtil -->
+      <class name="com.narnaul.testcases.TestParametrization">
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:com.narnaul.testcases.TestParametrization@37f21974]" started-at="2023-07-19T20:51:05Z" name="testData" data-provider="getData" finished-at="2023-07-19T20:51:05Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=rupee, RunMode=Y, amount=1111.0, customer=ram}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:com.narnaul.testcases.TestParametrization@37f21974]" started-at="2023-07-19T20:51:05Z" name="testData" data-provider="getData" finished-at="2023-07-19T20:51:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=doller, RunMode=Y, amount=2222.0, customer=shyam}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData(java.util.Hashtable)[pri:0, instance:com.narnaul.testcases.TestParametrization@37f21974]" started-at="2023-07-19T20:51:05Z" name="testData" data-provider="getData" finished-at="2023-07-19T20:51:05Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=babu, RunMode=N, amount=420.0, customer=raja}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+      </class> <!-- com.narnaul.testcases.TestParametrization -->
+      <class name="com.narnaul.testcases.CreateCustomerTest">
+        <test-method signature="validateCustomerValidKey()[pri:0, instance:com.narnaul.testcases.CreateCustomerTest@f9879ac]" started-at="2023-07-19T20:50:55Z" name="validateCustomerValidKey" finished-at="2023-07-19T20:51:03Z" duration-ms="8725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerValidKey -->
+      </class> <!-- com.narnaul.testcases.CreateCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
